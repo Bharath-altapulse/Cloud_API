@@ -1,0 +1,17 @@
+{
+  "name": "Cloud_API",
+  "version": "1.0.0",
+  "description": "WhatsApp Echo Bot",
+  "main": "index.js",  // or app.js
+  "scripts": {
+    "start": "node index.js"  // or node app.js
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0"
+  },
+  "engines": {
+    "node": "14.x"  // or the Node.js version you're using
+  }
+}
